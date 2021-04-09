@@ -33,6 +33,28 @@ nav {
   height: 190px;
 }
 
+.floating_btn {
+  width: 80px;
+  height: 80px;
+  background: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.floating_btn:hover {
+  color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
 @media (max-width: 1280px) {
   .fix_carousel {
     width: 100%;
