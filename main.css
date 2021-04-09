@@ -1,6 +1,9 @@
 nav {
+  background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-size: larger;
+  position: fixed;
+  top: 0;
 }
 
 .fix_carousel {
@@ -11,6 +14,23 @@ nav {
 
 .card_container {
   margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.line {
+  border-top: 3px solid black;
+}
+
+.tr_style {
+  margin: 30px;
+}
+
+.tour_routes {
+  margin-top: 15px;
+}
+
+.card_photos {
+  height: 190px;
 }
 
 @media (max-width: 1280px) {
