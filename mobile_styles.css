@@ -6,10 +6,28 @@ nav {
   top: 0;
 }
 
-.fix_carousel {
-  width: 50%;
-  height: 500px;
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 700px;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.fix_video {
+  width: 75%;
+  height: 700px;
   margin: 15px;
+  border: 2px solid black;
 }
 
 .card_container {
