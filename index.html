@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="desktop_styles.css" type="text/css">
+	<script src="https://kit.fontawesome.com/9309da7c58.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
     <title>Testing</title>
 </head>
 <body>
-    <header>
 		<nav>
+			<input type="checkbox" id="check">
+      		<label for="check" class="checkbtn">
+        		<i class="fas fa-bars"></i>
+      		</label>
 			<a href="#" class="logo">Logo</a>
-			<ul>
+			<ul class="navbar">
 				<li><a href="#" class="active">Inicio</a></li>
 				<li><a href="#">Tours</a></li>
 				<li><a href="#">Sobre Nosotros</a></li>
 				<li><a href="#">Contacto</a></li>
 			</ul>
 		</nav>
-	</header>
 	<main>
 		<section class="sec1">
             <video autoplay muted loop>
@@ -41,29 +44,7 @@
 		</section>
 		<section class="sec4"></section>
 	</main>
+	<script type="text/javascript" src="index.js"></script>
 
-	<script>
-		const nav = document.querySelector('nav');
-		let prevScrollpos = window.pageYOffset;
-
-		window.addEventListener('scroll', ()=>{
-			let currentScrollPos = window.pageYOffset;
-
-			if(prevScrollpos < currentScrollPos){
-				nav.classList.add('hide');
-			}else{
-				nav.classList.remove('hide');
-			}
-
-			prevScrollpos = currentScrollPos;
-		})
-	</script>
-    <script>
-        if (screen.width <= 800) {
-            document.location = "main.html"
-        }
-        console.log(screen.width)
-        console.log(navigator.userAgent)
-    </script>
 </body>
 </html>
