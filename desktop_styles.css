@@ -235,7 +235,7 @@ section.tours_non div div.image_container img.img_tour_non {
   height: 30vh;
   margin-top: 5vh;
   margin-right: 10vh;
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 section.tours_non div div.destiny h3 {
   color: var(--dark_color);
@@ -284,7 +284,7 @@ section.tours_non div div.reservar:hover {
 section.tours_even {
   padding: 100px;
   height: auto;
-  text-align: left;
+  text-align: center;
   background-color: var(--principal_color);
   margin-bottom: 5vh;
 }
@@ -299,12 +299,58 @@ section.tours_even p {
   color: var(--light_color);
   font-size: 20px;
 }
-section.tours_even div img.img_tour_even {
+section.tours_even div.image_container {
   float: right;
+  height: 50vh;
+}
+section.tours_even div.image_container img.img_tour_even {
   height: 30vh;
   margin-top: 5vh;
   margin-left: 10vh;
   margin-bottom: 5vh;
+}
+section.tours_even div.destiny h3 {
+  color: var(--light_color);
+  font-size: 45px;
+  text-align: right;
+}
+section.tours_even div.destiny ul {
+  color: var(--light_color);
+  font-size: 25px;
+  text-align: right;
+  list-style: square;
+  list-style-position: inside;
+}
+section.tours_even div.destiny ul li.important {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+section.tours_even div.descripition {
+  text-align: right;
+  font-size: 30px;
+}
+section.tours_even div.reservar {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  text-align: center;
+  width: min-content;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: xx-large;
+  background-color: var(--light_blue);
+  box-shadow: 5px 5px 10px var(--dark_color);
+  border-radius: 15px 50px;
+}
+section.tours_even div.reservar a {
+  color: var(--light_color);
+}
+section.tours_even div.reservar:hover {
+  background-color: var(--dark_blue);
 }
 
 section.sec5 {
